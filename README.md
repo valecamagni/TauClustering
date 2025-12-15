@@ -8,7 +8,10 @@ The analysis relies on the following ROOT files (not stored in the repository):
 
 - `data/SC.root`  
   Contains extended L1 PF candidate information used as input for the
-  seeded-cone clustering.
+  seeded-cone clustering.  
+  The file also includes the seeded-cone clusters reconstructed by the
+  reference scouting implementation, used for comparison with the Python
+  algorithm.
 
 ## Grid search and clustering (`gridsearch.ipynb`)
 The notebook performs a grid search to optimise the parameters of the
